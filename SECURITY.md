@@ -56,13 +56,13 @@ Once the vulnerability severity is defined, the following steps apply:
        [temporary private fork](https://docs.github.com/en/code-security/repository-security-advisories/collaborating-in-a-temporary-private-fork-to-resolve-a-repository-security-vulnerability)
        of the repository.
     2. Only relevant parties will be notified about an upcoming upgrade.
-       These being validators, the core developer team, and users directly affected by the vulnerability.
+       These are validators, the core developer team, and users directly affected by the vulnerability.
     3. 24 hours following this notification, relevant releases with the patch will be made public.
     4. The nodes and validators update their Evmos and Ethermint dependencies to use these releases.
     5. A week (or less) after the security vulnerability has been patched on Evmos,
        we will disclose that the mentioned release contained a security fix.
     6. After an additional 2 weeks, we will publish a public announcement of the vulnerability.
-       We also publish a security Advisory on GitHub and publish a
+       We also publish a security Advisory on GitHub
        [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
 
 - For `Informational`, `Low` and `Medium` severities:
@@ -95,7 +95,7 @@ following requirements have been completed:
 The Operations team will get in contact with the whitehat hacker to coordinate the submission of KYC/KYC with
 the Service Provider [Provenance](http://provenancecompliance.com).
 
-The KYC/KYB process is performed independently by the Service Provider, which submits a report with the
+The KYC/KYB process is performed independently by the Service Provider, which submits a report to the
 KYC/KYB result
 (Accepted or Rejected) to the Evmos Core Team. The Evmos Core team does not have access to any of the information
 provided to the Service Provider.
@@ -116,7 +116,7 @@ The team commits to releasing security patch releases for the latest release tha
 If evmOS licensees are running older versions, we encourage them to upgrade at the earliest opportunity
 so that you can receive
 security patches directly from the repo, according to the terms set in the License Agreement. While project
-are welcomed to backport security patches to older versions for their own use, the Evmos team reserves
+are welcome to backport security patches to older versions for their own use, the Evmos team reserves
 the right to prioritize patches for
 latest versions being used by projects.
 
@@ -161,7 +161,7 @@ Attacks may come through the P2P network or the RPC layer:
 ##### EVM Module
 
 - Memory allocation bugs
-- Payloads that cause panics
+- Payloads that cause panic
 - Authorization of invalid transactions
 
 ##### Fee Market Module (EIP-1559)
