@@ -1,6 +1,6 @@
 Evmos Non-Commercial License
 
-Version 1.0 dated April 21th, 2023
+Version 1.0 dated April 21st, 2023
 
 This license contains the terms and conditions under which Tharsis Labs Ltd.
 (“Company”) makes available its Software. Your use of the Software is subject to
@@ -10,7 +10,7 @@ Company grants you (“Licensee”) a license to use, modify, and redistribute t
 Software, but only (a) for Non-Commercial Use, or (b) for Commercial Use only on
 the Designated Blockchains.
 
-If Licensee makes available a copy of the Software to any third party, the
+If the Licensee makes available a copy of the Software to any third party, the
 Software must be subject to the terms of this license only, and Licensee must
 provide a copy of this license to that third party. All restrictions and
 conditions of this license apply to the Software or any portion or modification
@@ -28,7 +28,7 @@ granted in this license.
 
 If Licensee violates any of these terms or uses the Software in a way not
 authorized under this license, the license granted to Licensee ends immediately.
-If Licensee makes, or authorizes any other person to make, any written claim
+If Licensee makes or authorizes any other person to make, any written claim
 that the Software, or any other Evmos Product (see below), infringes or
 contributes to the infringement of any patent, all rights granted to Licensee
 under this license end immediately.
@@ -46,7 +46,7 @@ implementation of the Evmos blockchains available at
 “https://github.com/evmos/backend” and “https://github.com/evmos/apps” as may be
 updated from time to time.
 
-"Designated Blockchains" refer to the version of the digital blockchain ledger
+"Designated Blockchains" refers to the version of the digital blockchain ledger
 that, at any given time, is recognized as canonical in accordance with the
 blockchain consensus. The initial Designated Blockchains shall be the Evmos
 blockchains, identified by the Ethereum Improvement Proposal 155 (EIP-155)
@@ -57,7 +57,7 @@ A “Evmos Product” is any product or service offered by the Company or its
 affiliates.
 
 “Non-Commercial Use” means academic, scientific, or research and development
-use, or evaluating the Software (such as. through auditing), but does not
+use, or evaluate the Software (such as. through auditing), but does not
 include the creation of a publicly available blockchain, precompiled smart
 contracts, or other distributed-ledger technology systems that facilitate any
 transaction of economic value.
